@@ -39,8 +39,8 @@ class FoxyIntegrationsSetting extends DataExtension
             HeaderField::create('IntegrationsHeader', 'Foxy Integrations', 3),
             LiteralField::create(
                 'IntegrationsDescip',
-                '<p>Push your Foxy.io datafeed to additional URLs for processing. This allows your datafeed to be used 
-                    by additional applications, such as 
+                '<p>Push your Foxy.io datafeed to additional URLs for processing. This allows your  
+                    datafeed to be used by additional applications, such as 
                     <a href="http://foxytools.com/orderdesk/" target="_blank">OrderDesk</a>.</p>'
             ),
             $integrations
